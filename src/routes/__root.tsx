@@ -37,6 +37,10 @@ export const Route = createRootRoute({
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
       { name: "twitter:site", content: "@Lovable" },
+      { name: "twitter:title", content: "PrimeVita Health Services" },
+      { name: "twitter:description", content: "Premium homecare with the warmth of family and the precision of medicine." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/0a0b52c6-21f6-4554-88a8-368929622b6b/id-preview-8f674be6--8f187f96-2270-4155-8b35-3ab8c5ee1d04.lovable.app-1777494372229.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/0a0b52c6-21f6-4554-88a8-368929622b6b/id-preview-8f674be6--8f187f96-2270-4155-8b35-3ab8c5ee1d04.lovable.app-1777494372229.png" },
     ],
     links: [
       {
