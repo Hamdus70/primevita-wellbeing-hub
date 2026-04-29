@@ -3,12 +3,13 @@ import { Phone, Menu, X, ChevronDown } from "lucide-react";
 import { useState } from "react";
 import logo from "@/assets/primevita-logo.png";
 
-const nav = [
+type NavItem = { to: "/" | "/about" | "/services" | "/contact"; label: string; hasDropdown?: boolean };
+const nav: NavItem[] = [
   { to: "/", label: "Home" },
   { to: "/about", label: "About" },
   { to: "/services", label: "Services", hasDropdown: true },
   { to: "/contact", label: "Contact" },
-] as const;
+];
 
 const serviceLinks = [
   { hash: "skilled-nursing", label: "Skilled Nursing" },
